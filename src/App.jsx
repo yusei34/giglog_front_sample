@@ -1,11 +1,15 @@
 import './App.css'
-import './components/Header/Header'
+import HeaderTitle from './components/HeaderTitle/HeaderTitle'
+import Button from './components/Button/Button'
 
 function App() {
 
   return (
     <>
-      <Header />
+    <div>
+      <HeaderTitle />
+      <Button />
+    </div>
     </>
   )
 }
